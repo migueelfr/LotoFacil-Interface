@@ -1,14 +1,26 @@
-# LOTO FACIL INTERFACE GRAFICA
-O projeto "LotoFacil Interface" é um programa simples em Java, porém, com uma interface gráfica que simula um jogo de loteria, permitindo que o usuário faça três tipos de apostas diferentes: Aposta 1: O usuário escolhe um número entre 0 e 100 e ganha se acertar um número aleatório gerado. Aposta 2: O usuário escolhe uma letra de A a Z e ganha se acertar uma letra aleatória gerada. Aposta 3: O usuário digita um número e ganha se o número for par.
-------------------------------------------------------------------------------------------------------------------------------
-# REQUISITOS E BIBLIOTECAS
-Para fazer o programa foi usado o IDE Java para compilação e execução do código e a JDK na versão 21.0.2. Foram utilizadas as bibliotecas: import java.awt.*;
-  As biblioteca usadas foram todas para configurar os clicks dos botões, tamanhos, cores, ações e sorteio dos números e letras nas apostas, como por exemplos a:
-   import java.awt.event.ActionEvent; e a  import javax.swing.JFrame; que é crucial para criar a janela da interface gráfica.
-   
----------------------------------------------------------------------------------------------------------------------------
-# COMO RODAR
-Para rodar o programa basta voce escolher qual das 3 apostas irá realizar. Após escolhida a aposta, o programa vai pedir o valor(número ou letra) para que seja realizada a aposta de acordo com os requisitos da mesma. Esse foi um projeto simples. Obrigado pela visita!
------------------------------------------------------------------------------------------------
+# Loto Facil
+Este é um programa Java que simula uma casa de apostas. Ele oferece três opções de aposta para o usuário e a possibilidade de desistir a qualquer momento.
+
+# Funcionalidades
+Aposta 0 - 100: Permite ao usuário apostar em um número de 0 a 100 e verifica se ele ganhou com base em um sorteio aleatório.
+Aposta A - Z: Permite ao usuário apostar em uma letra de A a Z e verifica se ele ganhou com base em um sorteio aleatório.
+Aposta Número: Permite ao usuário apostar em um número e verifica se ele ganhou com base em se o número é par ou ímpar.
+Desistir: Permite ao usuário desistir do jogo a qualquer momento.
+
+# Como executar o programa
+Certifique-se de ter o Java Development Kit (JDK) instalado em seu computador.
+Clone este repositório para o seu ambiente local.
+Abra o terminal ou prompt de comando e navegue até o diretório onde o repositório foi clonado.
+Compile o arquivo Menu.java executando o seguinte comando:
+"javac Menu.java"
+Execute o programa compilado usando o seguinte comando:
+"java Menu"
+O programa será iniciado e a interface gráfica da casa de apostas será exibida.
+# Tecnologias utilizadas
+Linguagem de programação Java
+Biblioteca Swing para interface gráfica
+# Autor
+Este programa foi desenvolvido por Miguel como parte de Linguagem de Programação.
+
 # CODIGO RODANDO
 <img src="Menu/src/Interface.gif">
